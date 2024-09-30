@@ -17,8 +17,3 @@ git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-alidd
 # => passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
-
-# => mosdns
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-

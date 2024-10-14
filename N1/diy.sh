@@ -17,3 +17,8 @@ git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-alidd
 # => passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+
+# => 修改默认主题
+sed -i 's/bootstrap/argon/g' openwrt/feeds/luci/collections/luci/Makefile
+
+cat openwrt/feeds/luci/collections/luci/Makefile

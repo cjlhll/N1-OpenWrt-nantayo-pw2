@@ -19,6 +19,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main pac
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
 # => 修改默认主题
-sed -i 's/bootstrap/argon/g' openwrt/feeds/luci/collections/luci/Makefile
-
-cat openwrt/feeds/luci/collections/luci/Makefile
+cat ./feeds/luci/collections/luci/Makefile

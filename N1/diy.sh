@@ -18,5 +18,3 @@ git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-alidd
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
-# => 修改默认主题
-cat ./feeds/luci/collections/luci/Makefile

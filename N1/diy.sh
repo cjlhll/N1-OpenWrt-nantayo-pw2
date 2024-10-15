@@ -18,4 +18,8 @@ git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-alidd
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
+#主题
+
+git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+sed -i 's/bootstrap/argon/g' feeds/luci/modules/luci-base/root/etc/config/luci
 cat feeds/luci/modules/luci-base/root/etc/config/luci

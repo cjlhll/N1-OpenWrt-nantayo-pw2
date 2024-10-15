@@ -22,4 +22,9 @@ git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 rm -rf feeds/luci/themes/luci-theme-bootstrap
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 sed -i 's/bootstrap/argon/g' feeds/luci/modules/luci-base/root/etc/config/luci
+
+sed -i 's/bootstrap/argon/g' package/feeds/luci/luci-light/Makefile
+sed -i 's/bootstrap/argon/g' package/feeds/luci/luci-nginx/Makefile
+sed -i 's/bootstrap/argon/g' package/feeds/luci/luci-ssl-nginx/Makefile
+
 cat feeds/luci/modules/luci-base/root/etc/config/luci

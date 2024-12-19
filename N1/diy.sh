@@ -15,6 +15,7 @@ git clone https://github.com/sbwml/luci-app-alist package/alist
 git clone https://github.com/chenhw2/luci-app-aliddns.git package/luci-app-aliddns
 
 # => passwall2
+rm -rf feeds/packages/net/geoview
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 

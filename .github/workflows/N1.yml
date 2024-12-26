@@ -59,6 +59,7 @@ jobs:
       run: |
         chmod +x $DIY_SH
         cd openwrt
+        ./scripts/feeds clean
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         $GITHUB_WORKSPACE/$DIY_SH

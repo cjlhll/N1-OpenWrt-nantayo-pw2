@@ -6,7 +6,7 @@ sed -i 's/192.168.1.1/192.168.5.2/g' package/base-files/files/bin/config_generat
 #修改密码
 sed -i 's/^root:.*:/root:$1$KVHNuqbv$4X2BPbtsXn2AApknHIn38.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
-git clone https://github.com/chenhw2/https://github.com/kenzok8/small-package package/small-package
+git clone https://github.com/kenzok8/small-package package/small-package
 
 # => alist
 #rm -rf feeds/packages/lang/golang

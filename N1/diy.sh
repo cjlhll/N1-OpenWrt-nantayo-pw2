@@ -6,6 +6,8 @@ sed -i 's/192.168.1.1/192.168.5.2/g' package/base-files/files/bin/config_generat
 #修改密码
 sed -i 's/^root:.*:/root:$1$KVHNuqbv$4X2BPbtsXn2AApknHIn38.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
+echo 'src-git small-package https://github.com/kenzok8/small-package' >>feeds.conf.default
+
 # => alist
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
